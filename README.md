@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# React-Blog_project
+React를 사용하여 만든 간단한 [Blog](https://skagn4929.github.io/React-Blog_project/) 프로젝트 입니다.   
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 주요 기능
+### 1. 글 목록과 좋아요 기능
+- 글 목록은 세 가지 예시 글로 구성되어 있고, 좋아요 기능이 포함되어 있습니다.
+- 글의 좋아요 수는 각 글 우측에 표시되며, 👍🏻을 클릭하여 증가시킬 수 있습니다.
 
-## Available Scripts
+### 2. 글 목록 정렬 기능
+- "가나다순정렬" 버튼을 클릭하면 글 목록이 가나다순으로 정렬됩니다.
 
-In the project directory, you can run:
+### 3. 글 수정 및 삭제 기능
+- "글수정" 버튼을 클릭하면 첫 번째 글이 "여자 코트 추천"으로 수정됩니다.
+- 각 글 아래에는 "삭제" 버튼이 있어 해당 글을 삭제할 수 있습니다.
 
-### `npm start`
+### 4. 글 발행 기능
+- 중앙 부분의 인풋창에 원하는 글을 입력한 후 "글발행" 버튼을 클릭하면 새로운 글이 맨 위에 추가됩니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 5. 모달 창 기능
+- 글의 제목을 클릭하면 모달 창이 열리며 해당 글의 상세 정보가 표시됩니다.
+- 현재는 "날짜"와 "상세내용"이라는 더미 데이터만 표시되어 있습니다.

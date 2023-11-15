@@ -28,7 +28,7 @@ function App() {
           글제목변경(copy);
         }}
       >
-        가나다순정렬
+        정렬
       </button>
 
       <button
@@ -38,7 +38,7 @@ function App() {
           글제목변경(copy);
         }}
       >
-        글수정
+        수정
       </button>
       {글제목.map(function (a, i) {
         return (
@@ -89,7 +89,7 @@ function App() {
           글제목변경(copy);
         }}
       >
-        글발행
+        추가
       </button>
 
       {modal == true ? <Modal 글제목={글제목} title={title} /> : null}
@@ -103,7 +103,6 @@ function Modal(props) {
       <h4>{props.글제목[props.title]}</h4>
       <p>날짜</p>
       <p>상세내용</p>
-      <button>글수정</button>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 # React-Blog_project
-React를 사용하여 만든 간단한 [Blog](https://skagn4929.github.io/React-Blog_project/) 프로젝트 입니다.   
+React를 사용하여 만든 [Blog](https://skagn4929.github.io/React-Blog_project/) 프로젝트 입니다.   
 
 ## 주요 기능
 ### 1. 글 목록과 좋아요 기능

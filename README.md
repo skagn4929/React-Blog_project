@@ -2,6 +2,9 @@
 React를 사용하여 만든 [Blog](https://skagn4929.github.io/React-Blog_project/) 프로젝트 입니다.   
 
 ## 주요 기능
+
+![blog3](https://github.com/skagn4929/React-Blog_project/assets/134206709/099b90e6-26cd-4dc2-9601-201a4f704755)
+
 ### 1. 글 목록과 좋아요 기능
 - 글 목록은 세 가지 예시 글로 구성되어 있고, 좋아요 기능이 포함되어 있습니다.
 - 글의 좋아요 수는 각 글 우측에 표시되며, 👍🏻을 클릭하여 증가시킬 수 있습니다.
